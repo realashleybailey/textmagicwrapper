@@ -20,8 +20,9 @@
         "textmagic/sdk": "dev-master"
     },
     "autoload": {
-        "psr-4": {
-            "TextMagic\\Wrapper\\": "src/"
-        }
+        "classmap": [
+            "src/",
+            "src/*"
+        ]
     }
 }
