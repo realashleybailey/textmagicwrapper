@@ -1,0 +1,27 @@
+{
+    "name": "textmagicwrapper/wrapper",
+    "description": "Sanitization library for PHP and the Laravel framework.",
+    "keywords": [
+        "textmagic",
+        "wrapper",
+        "sdk"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashley Bailey",
+            "email": "admin@ashleybailey.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0",
+        "textmagic/sdk": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "TextMagic\\Wrapper\\": "src/"
+        }
+    }
+}
